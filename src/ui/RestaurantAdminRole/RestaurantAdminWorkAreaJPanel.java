@@ -95,7 +95,6 @@ public class RestaurantAdminWorkAreaJPanel extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         RestaurantAdminDashboardJTable = new javax.swing.JTable();
         lblRestaurantStatus = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
         txtFoodDishName = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
@@ -151,9 +150,6 @@ public class RestaurantAdminWorkAreaJPanel extends javax.swing.JPanel {
         lblRestaurantStatus.setForeground(new java.awt.Color(25, 56, 82));
         lblRestaurantStatus.setText("approved/not approved");
         add(lblRestaurantStatus, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 30, 190, -1));
-
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/emergency512icon.png"))); // NOI18N
-        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 22, -1, -1));
         add(txtFoodDishName, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 320, -1, -1));
 
         jLabel7.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
@@ -316,7 +312,6 @@ public class RestaurantAdminWorkAreaJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel btnDeleteItem;
     private javax.swing.JLabel btnProcess1;
     private javax.swing.JLabel btnUploadImage;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JScrollPane jScrollPane1;

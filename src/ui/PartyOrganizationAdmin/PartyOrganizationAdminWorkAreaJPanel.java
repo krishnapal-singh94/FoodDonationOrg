@@ -51,7 +51,6 @@ public class PartyOrganizationAdminWorkAreaJPanel extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         partyOrganizerAdminDashboardJTable = new javax.swing.JTable();
         lblPartyStatus = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
         txtFoodDishName = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
@@ -105,9 +104,6 @@ public class PartyOrganizationAdminWorkAreaJPanel extends javax.swing.JPanel {
         lblPartyStatus.setForeground(new java.awt.Color(25, 56, 82));
         lblPartyStatus.setText("approved/not approved");
         add(lblPartyStatus, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 30, 190, -1));
-
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icon/emergency512icon.png"))); // NOI18N
-        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(17, 22, -1, -1));
         add(txtFoodDishName, new org.netbeans.lib.awtextra.AbsoluteConstraints(540, 320, -1, -1));
 
         jLabel7.setFont(new java.awt.Font("SansSerif", 1, 18)); // NOI18N
@@ -223,7 +219,6 @@ public class PartyOrganizationAdminWorkAreaJPanel extends javax.swing.JPanel {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnSubmit;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JScrollPane jScrollPane1;
